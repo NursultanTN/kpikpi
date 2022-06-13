@@ -1,4 +1,4 @@
-let API = " http://localhost:8000/todo";
+let API = "http://localhost:8000/todo";
 
 let btn = document.querySelector(".btn");
 let todoList = document.querySelector(".todo-list");
@@ -136,5 +136,3 @@ document.addEventListener("click", async function (e) {
     disabl.value = response.id;
   }
 });
-
-// djjddj
